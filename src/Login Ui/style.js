@@ -16,7 +16,9 @@ const style = () => {
         boxShadow: "11px 12px 13px 12px rgb(207, 207, 207)",
         paddingTop: "30px",
         borderRadius: "60px",
-        backgroundColor: "white"
+        backgroundColor: "white",
+       
+
     }
 
     const imgs = {
@@ -68,7 +70,9 @@ const style = () => {
         backgroundColor: "#b103fc",
         color: "white",
         fontSize: "25px",
-        border: "none"
+        border: "none",
+        cursor: "pointer",
+        transition: "all 0.3s"
     }
     const loginButton = {
         paddingTop: "25px"
@@ -82,8 +86,8 @@ const style = () => {
     }
     const secondInput = {
        
-            paddingTop: "20px"
-
+            paddingTop: "20px",
+            transition: "all 0.3s"
     }
 
     return {mainstyle,subMain,imgs,containerImage,profile,input,email,name,button,loginButton,link,a,secondInput};
